@@ -1,39 +1,31 @@
+li {
+  display: inline;
+  padding: 10px;
+}
+.btd {
+  background-color: #5383e8;
+  color: rgb(0, 238, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
 
-li{
-    display: inline;
-    padding: 10px;
-    
-    
- 
-   
+  font-size: 100%;
 }
-.btd{
-    background-color: #5383e8 ;
-    color: rgb(0, 238, 255) ;
-   padding-top: 10px ;
-   padding-bottom: 10px;
-   
-    font-size: 100%;
+.bt {
+  background-color: #5383e8;
+  color: rgb(212, 211, 211);
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-size: 100%;
 }
-.bt{
-    
-    background-color: #5383e8 ;
-    color: rgb(212, 211, 211) ;
-   padding-top: 10px ;
-   padding-bottom: 10px;
-   
-    font-size: 100%;
+a:link {
+  color: rgb(212, 211, 211);
+  text-decoration: none;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif",
+    Dotum;
+  font-size: medium;
 }
-a:link{
- 
-    color: rgb(212, 211, 211);
-    text-decoration: none;
-    font-family: "Helvetica Neue","Helvetica","Arial","Verdana","sans-serif",Dotum;
-    font-size: medium;
-    
-}
-a:hover{
-    color: white;
-    border-bottom:2px rgb(255, 255, 255) solid ;
-    
+a:hover {
+  color: white;
+  border-bottom: 2px rgb(255, 255, 255) solid;
 }
