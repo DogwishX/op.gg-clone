@@ -1,12 +1,16 @@
 body {
-    background-color: #5f86d7;
+
+    background-color: #5383e8;
+    margin: 0px;   
+    
 }
 
 .bar {
+
     position: relative;
     display: flex;
-
-
+    background-color:#4c78d4 
+    
 }
 
 li {
@@ -14,29 +18,21 @@ li {
     display: inline;
     padding: 10px;
 
-
-
 }
 
 
 .btd {
-    background-color: #4c78d4;
+ 
     color: rgb(0, 238, 255);
-    padding-top: 10px;
-    padding-bottom: 10px;
-
     font-size: 100%;
+    padding-bottom: 16px;
 }
 
 .bt {
 
-    background-color: #4c78d4;
     color: rgb(212, 211, 211);
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-
     font-size: 100%;
+   padding-bottom: 16px;
 
 }
 
@@ -50,17 +46,20 @@ a:link {
 }
 
 a:hover {
+
     color: white;
     border-bottom: 2px rgb(255, 255, 255) solid;
 
 }
 
 .imgini {
+
     display: flex;
     justify-content: center;
     height: 200px;
     margin-top: 7%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
+
 }
 
 #search {
@@ -72,11 +71,13 @@ a:hover {
 }
 
 #search:focus {
+
     outline: none;
 
 }
 
 .searchbar {
+
     border-radius: 40px;
     background-color: white;
     display: flex;
@@ -89,12 +90,12 @@ a:hover {
     padding: 0px 20px;
     max-width: 60%;
 
-
-
 }
 
 .sbutton {
+
     background-color: white;
     border: none;
     border-radius: 10px;
+
 }
